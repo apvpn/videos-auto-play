@@ -34,19 +34,6 @@ export class AppComponent {
 
   title = 'autoplay-app';
   
-  video: string[] = [
-    'https://www.youtube.com/embed/d-nxFHYsxN0?autoplay=1;enablejsapi=1&version=3&mute=1&playerapiid=ytplayer',
-    'https://www.youtube.com/embed/tI8ijLpZaHk?enablejsapi=1&version=3&mute=1&playerapiid=ytplayer',
-    'https://www.youtube.com/embed/Fkd9TWUtFm0?enablejsapi=1&version=3&mute=1&playerapiid=ytplayer',
-    'https://www.youtube.com/embed/vWLcyFtni6U?enablejsapi=1&version=3&mute=1&playerapiid=ytplayer',
-    'https://www.youtube.com/embed/3SDkzDlw1yc?enablejsapi=1&version=3&mute=1&playerapiid=ytplayer',
-    'https://www.youtube.com/embed/wM4L_yDGqpo?enablejsapi=1&version=3&mute=1&playerapiid=ytplayer',
-    'https://www.youtube.com/embed/0PI0XhxeLaA?enablejsapi=1&version=3&mute=1&playerapiid=ytplayer',
-    'https://www.youtube.com/embed/YBFHCAPNwLI?enablejsapi=1&version=3&mute=1&playerapiid=ytplayer',
-    'https://www.youtube.com/embed/zEPYSNO7o3Q?enablejsapi=1&version=3&mute=1&playerapiid=ytplayer',
-    'https://www.youtube.com/embed/GWl5-VLCiJA?enablejsapi=1&version=3&mute=1&playerapiid=ytplayer'
-  ]
-  
   newvideo = [
     {id:'d-nxFHYsxN0',playerData:null},
     {id:'tI8ijLpZaHk',playerData:null},
@@ -70,8 +57,6 @@ export class AppComponent {
     });
   }
 
-
-  
   scroll = (): void => {
     
   };
