@@ -1,0 +1,19 @@
+.inner-video-div {
+    width: 850px;
+    display: inline-block;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 650px;
+    margin: 15px 0px;
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+}
+.video-wrap-div iframe {
+    width: 100%;
+    border-radius: 5px;
+    height: 100vh;
+}
+.video-wrap-div {
+    text-align: center;
+}
